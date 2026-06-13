@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { createRoot } from 'react-dom/client';
 import { Play, Pause, Upload, Sparkles, Search } from 'lucide-react';
-import "style.css";
+
 
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
